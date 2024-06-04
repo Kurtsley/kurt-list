@@ -1,0 +1,41 @@
+<!-- Kurtsley 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Commodity Prices</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <h1 id="title">Commodity Prices</h1>
+        </div>
+        <div id="commodities">
+            <script type="text/javascript" src="https://www.oil-price.net/COMMODITIES/gen.php?lang=en"> </script>
+            <noscript> To get <a href="http://www.oil-price.net/dashboard.php?lang=en#COMMODITIES">gold, oil and commodity
+                    prices</a>, please enable Javascript.</noscript>
+        </div>
+        <div class="placeholder">
+            <span>TODO</span>
+        </div>
+        <div class="placeholder">
+            <span>TODO</span>
+        </div>
+        <!--
+        <div id="oil-price">
+            <script type="text/javascript" src="https://www.oil-price.net/widgets/brent_crude_price_large/gen.php?lang=en"> </script>
+            <noscript> To get the BRENT <a href="http://www.oil-price.net/dashboard.php?lang=en#brent_crude_price_large">oil price</a>, please enable Javascript.</noscript>	            
+        </div>
+        <div id="gas-price">
+            <script type="text/javascript" src="https://www.gas-cost.net/widget.php?lang=en"> </script>
+            <noscript> To get <a href="http://www.gas-cost.net/dashboard.php?lang=en">gasoline price</a>, please enable Javascript.</noscript>
+        </div>
+    -->
+        <div class="footer">
+            <h6 id="copyright">Made by Kurtsley 2024</h6>
+        </div>
+    </div>
+</body>
+</html>
