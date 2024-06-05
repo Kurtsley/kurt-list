@@ -5,8 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- delete these when not local -->
+    <link rel="stylesheet" href="../static/list.css">
+    <script src="../static/app.js" defer></script>
+    <!--
     <link rel="stylesheet" href="{{ url_for('static', filename='list.css') }}">
     <script src="{{ url_for('static', filename='app.js') }}"></script>
+    --->
     <title>List</title>
 </head>
 
@@ -18,12 +23,17 @@
     </div>
     <div class="content">
         <div class="add-section">
-            <h3 id="new-list">New list</h3>
             <button id="btn-add">+</button>
         </div>
-    </div>
-    <div class="list-section">
+        <div class="list-section">
+            <div class="list-title">
 
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <h6 id="copyright-text">List by Kurtsley 2024</h6>
     </div>
 </body>
 
